@@ -1,0 +1,42 @@
+{
+    "uid": "8f86808d0df991d333d0a5e48203f14f", md5(imei)
+    "SdcardInfo": "1501004b375530304d083922ca347100",// cat /sys/block/mmcblk0/cid
+    "model": "Lenovo A828t",
+    "Serialno": "3922ca34", // getprop ro.serialno
+    "hw": "52b4d1d29f6409cb21cc950f4b9fdfd0", // md5(IMEI + MemTotal/Mb 879712/1024=859 +BaseBandVersion　＋　"720" + "1280" + "2.0" + "Acceleration Sensor3-axis Magnetic field sensor")
+    "device_type": "android",
+    "emu": "029f181d6e7ba188885c78462623c37a",//表示是否是模拟器 "android+momo+0" 0表示不是模拟器，1表示是模拟器
+    "mac": "ac:38:70:0b:bc:12",
+    "lng": "0",//经度
+    "sensorNames": "G0$T0$L1$A0$M1$D1$W0$P0$Qe0$vb1$1$6609527f3a5c50775715aaa7b87f000d", // getDefaultSensor
+    "password": "76f01065b4d206d24a7446b2db847b19",
+    "version": "1170",
+    "SerialNumber": "3922ca34", // getprop ro.serialno
+    "android_id": "4632321d6a3b553", //Settings.System.getString(getContentResolver(), Settings.System.ANDROID_ID); 
+    "utdid": "9005e0b32cb047b98186d44872227de0", //md5("UOJvjk/VhugDADgjo9Ut2xhy") 这个字符串不传送给服务器，就没法校验字符串是靠谱的
+    "KernelVersion": "Linux version 3.4.5 (Android-bot@Android-server) (gcc version 4.6.x-google 20120106 (prerelease) (GCC) ) #2 SMP PREEMPT Thu May 8 14:16:22 CST 2014", // /proc/version
+    "osversion_int": "17",
+    "MacInfo": "ac:38:70:0b:bc:12",
+    "etype": "2",
+    "lat": "0",//纬度
+    "BaseBandVersion": "HLTD_CP_2.41.P17:TTD_WK_HLTD_MSA_2.41.P13", //gsm.version.baseband
+    "dpp": "02b6c31851cf40f425ac7c66efe16cb7",// md5(“Art*#” + 随机"abcdefghijklmnopqrsuvwxyz"中的一个 + fr(uri后面的参数)) 这里hash有26中可能，服务器可以进行判断
+    "screen": "720x1280",
+    "BootSerialno": "", // getprop ro.boot.serialno
+    "rom": "4.2.1",
+    "phone_type": "GSM",
+    "imei": "862974028345786",
+    "isRoot": "1",
+    "buildnumber": "LenovoA828t_S103_20131213/20140508.141643",
+    "apksign": "4f3a531caff3e37c278659cc78bfaecc", md5(cert)
+    "CpuInfo": "0-3", //cat /sys/devices/system/cpu/present
+    "acc": "0",
+    "phone_netWork": "0",
+    "manufacturer": "LENOVO",
+    "account": "13157567641",
+    "imsi": "unknown",
+    "gapps": "0",
+    "market_source": "1",
+    "RAMSize": "879712",
+    "new_installation": "0"
+}
